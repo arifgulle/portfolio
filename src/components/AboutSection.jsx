@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Bot, Briefcase, Code, MapIcon, User } from "lucide-react";
 
 
 export const AboutSection = () => {
@@ -47,8 +47,8 @@ export const AboutSection = () => {
                                 <User className="h-6 w-6 text-primary" />
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg">Développement Web</h4>
-                                <p className="text-muted-foreground">Création d'une application web en Django dans le cadre d’un projet universitaire.</p>
+                                <h4 className="font-semibold text-lg">Qualités</h4>
+                                <p className="text-muted-foreground">Communication & travail d’équipe, Autonomie et organisation, Curiosité & envie d’apprendre</p>
 
                             </div>
                         </div>
@@ -56,11 +56,11 @@ export const AboutSection = () => {
                     <div className="gradient-border p-6 card-hover">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <Briefcase className="h-6 w-6 text-primary" />
+                                <MapIcon className="h-6 w-6 text-primary" />
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg">Développement Web</h4>
-                                <p className="text-muted-foreground">Création d'une application web en Django dans le cadre d’un projet universitaire.</p>
+                                <h4 className="font-semibold text-lg">Ce que je recherche</h4>
+                                <p className="text-muted-foreground">Un stage où je peux contribuer à des projets concrets, apprendre aux côtés d’une équipe expérimentée et évoluer vers un rôle full-stack.</p>
 
                             </div>
                         </div>
