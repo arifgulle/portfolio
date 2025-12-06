@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react"
+import { Github, Instagram, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react"
 import {cn} from "@/lib/utils"
 import { useToast } from "../hooks/use-toast"
 import { useState } from "react";
@@ -44,11 +44,11 @@ export const ContactSection = () => {
                         </div>
                         <div className="flex items-start space-x-4">
                             <div className=" p-3 rounded-full bg-primary/10">
-                            <Phone className="h-6 w-6 text-primary"/>
+                            <Linkedin className="h-6 w-6 text-primary"/>
                             </div>
                             <div>
-                                <h4 className="font-medium">Téléphone</h4>
-                                <a href="tel:0767920010" className="text-muted-foreground hover:text-primary transition-colors">07 67 92 00 10</a>
+                                <h4 className="font-medium">Linkedin</h4>
+                                <a href="https://linkedin.com/in/arif-gulle" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">GULLE Arif</a>
 
                             </div>
                         </div>
@@ -67,8 +67,8 @@ export const ContactSection = () => {
                     <div className="pt-8 ">
                         <h4 className="font-medium mb-4">Autres Liens</h4>
                         <div className="flex space-x-4 justify-center">
-                            <a href="https://linkedin.com/in/arif-gulle" target="_blank">
-                                <Linkedin />
+                            <a href="https://github.com/arifgulle" target="_blank">
+                                <Github />
                             </a>
                             <a href="https://www.instagram.com/arifgulle_" target="_blank">
                                 <Instagram />
