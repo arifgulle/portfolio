@@ -10,6 +10,15 @@ const projects = [
         demoUrl: "/projects/project1.png",
         githubUrl: "#",
     },
+    {
+        id: 2,
+        title: "Portfolio 3D",
+        description: "Site internet utilisant un modéle 3D et quelques animations de texte. Fait avec React et Tailwindcss.",
+        image: "/projects/project2.png",
+        tags: ["React", "Tailwindcss"],
+        demoUrl: "/projects/project2.png",
+        githubUrl: "#",
+    }
 ]
 
 export const ProjectsSection = () => {
